@@ -3,6 +3,17 @@
 [![Build Status](https://travis-ci.org/assertthat/selenium-shutterbug.svg?branch=master)](https://travis-ci.org/assertthat/selenium-shutterbug)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.assertthat/selenium-shutterbug/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.assertthat/selenium-shutterbug)
 
+## 🛠 Contributions (Upstream Contributor)
+
+I am an contributor to the original [assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug) library. My work focused on improving the robustness of the screenshot engine.
+
+**Key features & fixes implemented by me:**
+*   **Scrollable Elements Support:** Added the ability to capture screenshots of elements with `overflow:auto` CSS property, which were previously truncated.
+*   **Blank Screenshots Fix:** Resolved a critical bug where the library would occasionally produce empty/blank images in specific browser environments.
+*   **Refactoring & Stability:** Improved the internal logic of the scrolling mechanism to ensure better compatibility with modern web layouts.
+
+🔗 **Official Pull Request:** [PR #55 - Fixes blank screenshots and adds scrolling for overflow auto](https://github.com/assertthat/selenium-shutterbug/pull/55)
+
 ## Synopsis
 
 Selenium Shutterbug is a utility library written in Java for making screenshots using [Selenium WebDriver](http://www.seleniumhq.org/projects/webdriver/ "SeleniumHQ WebDriver page") and further customizing, comparing and processing them with the help of  [Java AWT](https://en.wikipedia.org/wiki/Abstract_Window_Toolkit "AWT wiki").
