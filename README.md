@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/assertthat/selenium-shutterbug.svg?branch=master)](https://travis-ci.org/assertthat/selenium-shutterbug)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.assertthat/selenium-shutterbug/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.assertthat/selenium-shutterbug)
 
-## 🛠 Contributions (Upstream Contributor)
+## Contributions (Upstream Contributor)
 
 I am an contributor to the original [assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug) library. My work focused on improving the robustness of the screenshot engine.
 
